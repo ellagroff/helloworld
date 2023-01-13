@@ -1,7 +1,9 @@
 input.onButtonPressed(Button.A, function () {
+    basic.showString("yes")
     basic.showIcon(IconNames.Heart)
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.SmallHeart)
+    basic.showString("no")
+    basic.showIcon(IconNames.Sad)
 })
-basic.showIcon(IconNames.Happy)
+basic.showString("do you have W rizz?")
